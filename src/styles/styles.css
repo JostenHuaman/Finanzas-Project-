@@ -1,0 +1,317 @@
+body {
+  font-family: "Roboto", sans-serif; /* Reemplaza 'Nombre-de-la-fuente' con el nombre de tu fuente */
+}
+.ant-menu.ant-menu-horizontal {
+  width: 340px;
+  background-color: #072146;
+}
+.ant-layout-header {
+  background-color: #072146;
+}
+li,.ant-menu-overflow-item.ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child.li-signup {
+  /* Estilos para el enlace con la clase 'button-signup' dentro de un 'span' dentro de un 'li' */
+  /* Agrega tus estilos personalizados aquí */
+  background-color:#072146;
+}
+.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: small;
+}
+.button-signup {
+  background-color: #35c522;
+  display: flex;
+  border-radius: 25px;
+  width: 70px;
+  height: 40px;
+  color: white;
+  opacity: 1;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.ant-row.ant-form-item-row.css-dev-only-do-not-override-1fviqcj{
+  display: flow;
+}
+/* Clases de animación */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* Estilo base del elemento animado */
+.animated-div {
+  width: 100%;
+}
+
+.ant-select-dropdown.css-dev-only-do-not-override-2i2tap.ant-select-dropdown-placement-bottomLeft{
+  z-index: 1500;
+}
+
+/*HOME.CSS*/
+.navbar {
+  background-color: #072146;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 56px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+
+.green-outline {
+  background-color: #19B629;
+  border: 2px solid #19B629;
+  border-radius: 30px;
+  padding: 10px 20px; /* Ajusta esto según tu diseño */
+  color: white;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2; /* Color de fondo del contenedor */
+  padding: 20px;
+  min-height: calc(85vh - 130px); /* 100px es la altura del footer */
+  background-color: #f2f2f2; /* Color de fondo del contenedor */
+  padding: 15px;
+  height: 93vh;
+  align-items: center;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 50%;
+  margin: 0 auto;
+  height: 100%; /* Centrar el contenedor horizontalmente */
+  text-align: justify; /* Texto justificado */
+  justify-content: center;
+}
+
+/* Estilos adicionales para la imagen y el texto */
+.image-section img {
+  max-width: 100%; /* Ajusta el tamaño de la imagen según tus necesidades */
+  max-height: 100%; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+.text-section p {
+  font-size: 1.2vw;
+  text-align: justify;
+}
+
+#nombre-empresa {
+  position: relative;
+  color: #002A8D; /* Establecer el color azul */
+  display: flex;
+  width: 80%;
+  flex-direction: column-reverse;
+  align-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2.5vw;
+  top:-5vh;
+}
+
+.desktop-home-text12 {
+  background-color: white;
+  padding: 15px;
+  border-radius: 25px;
+  color: rgba(34, 34, 34, 1);
+  width: 80%;
+  height: auto;
+  position: relative;
+  font-size: 30px;
+  font-style: Medium;
+  text-align: center;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #072146; /* Color de fondo para el footer */
+  color: white; /* Color del texto */
+  margin-top: 40px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.icon-facebook,
+.icon-instagram {
+  margin-right: 10px; /* Espacio entre los íconos de redes sociales */
+  text-decoration: none;
+  color: white;
+}
+
+.privacy-policy{
+  margin-left: auto;
+}
+
+.privacy-policy a {
+  text-decoration: none;
+  color: white;    
+  font-size: 20px;
+}
+/*ABOUT US*/
+.container-cardint{
+  height: 93vh;
+  background-color: #f2f2f2;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 2vh;
+}
+
+.container-cardint span{
+  color: #002A8D; 
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 105px;
+  height: 54vh;
+  margin-top: 85px;
+  background-color: #f2f2f2;
+  border: none; 
+}
+
+.card-fr {
+  width: 17vw;
+  margin: 2vh;   
+  background-color: #f2f2f2;
+  border: none; 
+}
+
+.card-top {
+  text-align: center;
+  padding: 10px;
+  background-color: #072146;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.profile-pic {
+  top:5vh;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: center top;
+}
+
+.profile-pic-omar {
+  top:5vh;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: center;
+}
+
+.card-middle {
+  text-align: center;
+  background-color: white;
+  height: 4vh;
+}
+
+.desktop-about-us-text20 span{
+
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #072146;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration:underline 8px;
+  color: #08316b;
+}
+
+.card-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  height: auto;
+}
+
+.description {
+  font-size: 16px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #18273b;
+  
+}
+.desktop-about-us-text20 {
+  height: auto;
+  position: relative;
+  font-size: 36px;
+  font-style: Black;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  margin-bottom: -5vh;
+}
